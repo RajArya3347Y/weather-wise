@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    height: 80%;
+    width: 35%;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.city-name {
+    margin: 2.5rem;
+    outline: none;
+    border: none;
+    padding: 5px;
+    padding-left: 15px;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 85%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#condition-img {
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+}
+
+.temp {
+    color: white;
+    font-size: 3.5rem;
+    padding: 5px;
+    margin: 5px;
+}
+
+.city {
+    color: white;
+    font-size: 2.5rem;
+    margin: 5px;
+}
+
+.other-details{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 4px;
+}
+
+.details > img{
+    height: 3rem;
+}
+
+.details div{
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.details > div p{
+    color: white;
+    font-size: 1.2rem;
+    margin: 2;
+}
